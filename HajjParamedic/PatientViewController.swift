@@ -8,53 +8,83 @@
 
 import UIKit
 
-class PatientViewController: UIViewController, UIPickerViewDataSource,UIPickerViewDelegate{
-    
-    var picker_arr : [String]!
-    @IBOutlet weak var picker: UIPickerView!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        picker_arr = ["حريق","بتر","غرق","غيبوبة","إغماء"]
+class PatientViewController:  UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
         
-        // Do any additional setup after loading the view.
-    }
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
+    @IBOutlet weak var txtField: UITextField!
+    @IBOutlet weak var txtField2: UITextField!
     
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return picker_arr.count
-    }
-    
-
-   
-    
-    public func pickerView(_ pickerView: UIPickerView, titleForRow row:Int,forComponent component: Int) -> String?
-    {
-        return picker_arr[row]
         
-    }
+        let thePicker = UIPickerView()
+        
+        let thePicker2 = UIPickerView()
+        
+        
+        let picker_arr = ["حريق","بتر","غرق","غيبوبة","إغماء"]
+        let picker_arr2 = ["بسيطة","متوسطة","خطيرة"]
+        
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            thePicker.tag=1
+            thePicker2.tag=5
+            txtField.inputView = thePicker
+            txtField2.inputView = thePicker2
+            
+            txtField.placeholder = "نوع الحالة"
+            txtField2.placeholder = "خطورة الحالة"
+            
+            
+            txtField.inputView = thePicker
+            txtField2.inputView = thePicker2
+            
+            thePicker.delegate = self
+            thePicker2.delegate = self
+        }
+        
+        
+        func numberOfComponents(in pickerView: UIPickerView) -> Int {
+            return 1
+        }
+        
+        func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+            if pickerView == thePicker {
+                return picker_arr.count}
+            else if pickerView == thePicker2 {
+                return picker_arr2.count
+            }
+            return -1
+            
+        }
+        
+        func pickerView( _ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+            
+            if pickerView == thePicker {
+                return picker_arr[row]
+            }
+            else if pickerView == thePicker2 {
+                return picker_arr2[row]
+            }
+            return nil
+            
+        }
+        
+        func pickerView( _ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+            
+            
+            if pickerView == thePicker {
+                
+                txtField.text = picker_arr[row]
+                txtField.resignFirstResponder()
+            }
+                
+            else if pickerView == thePicker2{
+                
+                txtField2.text = picker_arr2[row]
+                txtField2.resignFirstResponder()
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+                
+            }}
+        
+        
 }
