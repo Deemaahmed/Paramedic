@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56F96A172113DA5B00C1AE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A162113DA5B00C1AE8A /* AppDelegate.swift */; };
+		56F96A192113DA5B00C1AE8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A182113DA5B00C1AE8A /* ViewController.swift */; };
+		56F96A1C2113DA5B00C1AE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F96A1A2113DA5B00C1AE8A /* Main.storyboard */; };
+		56F96A1E2113DA5D00C1AE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56F96A1D2113DA5D00C1AE8A /* Assets.xcassets */; };
+		56F96A212113DA5D00C1AE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F96A1F2113DA5D00C1AE8A /* LaunchScreen.storyboard */; };
+		56F96A2C2113DA5D00C1AE8A /* HajjParamedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A2B2113DA5D00C1AE8A /* HajjParamedicTests.swift */; };
+		56F96A372113DA5D00C1AE8A /* HajjParamedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A362113DA5D00C1AE8A /* HajjParamedicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56F96A282113DA5D00C1AE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F96A0B2113DA5B00C1AE8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F96A122113DA5B00C1AE8A;
+			remoteInfo = HajjParamedic;
+		};
+		56F96A332113DA5D00C1AE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56F96A0B2113DA5B00C1AE8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F96A122113DA5B00C1AE8A;
+			remoteInfo = HajjParamedic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56F96A132113DA5B00C1AE8A /* HajjParamedic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HajjParamedic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F96A162113DA5B00C1AE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56F96A182113DA5B00C1AE8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56F96A1B2113DA5B00C1AE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56F96A1D2113DA5D00C1AE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56F96A202113DA5D00C1AE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56F96A222113DA5D00C1AE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F96A272113DA5D00C1AE8A /* HajjParamedicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HajjParamedicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F96A2B2113DA5D00C1AE8A /* HajjParamedicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjParamedicTests.swift; sourceTree = "<group>"; };
+		56F96A2D2113DA5D00C1AE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F96A322113DA5D00C1AE8A /* HajjParamedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HajjParamedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F96A362113DA5D00C1AE8A /* HajjParamedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjParamedicUITests.swift; sourceTree = "<group>"; };
+		56F96A382113DA5D00C1AE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56F96A102113DA5B00C1AE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A242113DA5D00C1AE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A2F2113DA5D00C1AE8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F96A0A2113DA5B00C1AE8A = {
+			isa = PBXGroup;
+			children = (
+				56F96A152113DA5B00C1AE8A /* HajjParamedic */,
+				56F96A2A2113DA5D00C1AE8A /* HajjParamedicTests */,
+				56F96A352113DA5D00C1AE8A /* HajjParamedicUITests */,
+				56F96A142113DA5B00C1AE8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56F96A142113DA5B00C1AE8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56F96A132113DA5B00C1AE8A /* HajjParamedic.app */,
+				56F96A272113DA5D00C1AE8A /* HajjParamedicTests.xctest */,
+				56F96A322113DA5D00C1AE8A /* HajjParamedicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56F96A152113DA5B00C1AE8A /* HajjParamedic */ = {
+			isa = PBXGroup;
+			children = (
+				56F96A162113DA5B00C1AE8A /* AppDelegate.swift */,
+				56F96A182113DA5B00C1AE8A /* ViewController.swift */,
+				56F96A1A2113DA5B00C1AE8A /* Main.storyboard */,
+				56F96A1D2113DA5D00C1AE8A /* Assets.xcassets */,
+				56F96A1F2113DA5D00C1AE8A /* LaunchScreen.storyboard */,
+				56F96A222113DA5D00C1AE8A /* Info.plist */,
+			);
+			path = HajjParamedic;
+			sourceTree = "<group>";
+		};
+		56F96A2A2113DA5D00C1AE8A /* HajjParamedicTests */ = {
+			isa = PBXGroup;
+			children = (
+				56F96A2B2113DA5D00C1AE8A /* HajjParamedicTests.swift */,
+				56F96A2D2113DA5D00C1AE8A /* Info.plist */,
+			);
+			path = HajjParamedicTests;
+			sourceTree = "<group>";
+		};
+		56F96A352113DA5D00C1AE8A /* HajjParamedicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				56F96A362113DA5D00C1AE8A /* HajjParamedicUITests.swift */,
+				56F96A382113DA5D00C1AE8A /* Info.plist */,
+			);
+			path = HajjParamedicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56F96A122113DA5B00C1AE8A /* HajjParamedic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F96A3B2113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedic" */;
+			buildPhases = (
+				56F96A0F2113DA5B00C1AE8A /* Sources */,
+				56F96A102113DA5B00C1AE8A /* Frameworks */,
+				56F96A112113DA5B00C1AE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HajjParamedic;
+			productName = HajjParamedic;
+			productReference = 56F96A132113DA5B00C1AE8A /* HajjParamedic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56F96A262113DA5D00C1AE8A /* HajjParamedicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F96A3E2113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedicTests" */;
+			buildPhases = (
+				56F96A232113DA5D00C1AE8A /* Sources */,
+				56F96A242113DA5D00C1AE8A /* Frameworks */,
+				56F96A252113DA5D00C1AE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F96A292113DA5D00C1AE8A /* PBXTargetDependency */,
+			);
+			name = HajjParamedicTests;
+			productName = HajjParamedicTests;
+			productReference = 56F96A272113DA5D00C1AE8A /* HajjParamedicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		56F96A312113DA5D00C1AE8A /* HajjParamedicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F96A412113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedicUITests" */;
+			buildPhases = (
+				56F96A2E2113DA5D00C1AE8A /* Sources */,
+				56F96A2F2113DA5D00C1AE8A /* Frameworks */,
+				56F96A302113DA5D00C1AE8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56F96A342113DA5D00C1AE8A /* PBXTargetDependency */,
+			);
+			name = HajjParamedicUITests;
+			productName = HajjParamedicUITests;
+			productReference = 56F96A322113DA5D00C1AE8A /* HajjParamedicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56F96A0B2113DA5B00C1AE8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sara Alqubaisi";
+				TargetAttributes = {
+					56F96A122113DA5B00C1AE8A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					56F96A262113DA5D00C1AE8A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 56F96A122113DA5B00C1AE8A;
+					};
+					56F96A312113DA5D00C1AE8A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 56F96A122113DA5B00C1AE8A;
+					};
+				};
+			};
+			buildConfigurationList = 56F96A0E2113DA5B00C1AE8A /* Build configuration list for PBXProject "HajjParamedic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56F96A0A2113DA5B00C1AE8A;
+			productRefGroup = 56F96A142113DA5B00C1AE8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56F96A122113DA5B00C1AE8A /* HajjParamedic */,
+				56F96A262113DA5D00C1AE8A /* HajjParamedicTests */,
+				56F96A312113DA5D00C1AE8A /* HajjParamedicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56F96A112113DA5B00C1AE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F96A212113DA5D00C1AE8A /* LaunchScreen.storyboard in Resources */,
+				56F96A1E2113DA5D00C1AE8A /* Assets.xcassets in Resources */,
+				56F96A1C2113DA5B00C1AE8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A252113DA5D00C1AE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A302113DA5D00C1AE8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56F96A0F2113DA5B00C1AE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F96A192113DA5B00C1AE8A /* ViewController.swift in Sources */,
+				56F96A172113DA5B00C1AE8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A232113DA5D00C1AE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F96A2C2113DA5D00C1AE8A /* HajjParamedicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F96A2E2113DA5D00C1AE8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56F96A372113DA5D00C1AE8A /* HajjParamedicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56F96A292113DA5D00C1AE8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F96A122113DA5B00C1AE8A /* HajjParamedic */;
+			targetProxy = 56F96A282113DA5D00C1AE8A /* PBXContainerItemProxy */;
+		};
+		56F96A342113DA5D00C1AE8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56F96A122113DA5B00C1AE8A /* HajjParamedic */;
+			targetProxy = 56F96A332113DA5D00C1AE8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56F96A1A2113DA5B00C1AE8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F96A1B2113DA5B00C1AE8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56F96A1F2113DA5D00C1AE8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56F96A202113DA5D00C1AE8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56F96A392113DA5D00C1AE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56F96A3A2113DA5D00C1AE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56F96A3C2113DA5D00C1AE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56F96A3D2113DA5D00C1AE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56F96A3F2113DA5D00C1AE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HajjParamedic.app/HajjParamedic";
+			};
+			name = Debug;
+		};
+		56F96A402113DA5D00C1AE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HajjParamedic.app/HajjParamedic";
+			};
+			name = Release;
+		};
+		56F96A422113DA5D00C1AE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HajjParamedic;
+			};
+			name = Debug;
+		};
+		56F96A432113DA5D00C1AE8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7F83KVKXJ;
+				INFOPLIST_FILE = HajjParamedicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HajjParamedic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56F96A0E2113DA5B00C1AE8A /* Build configuration list for PBXProject "HajjParamedic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F96A392113DA5D00C1AE8A /* Debug */,
+				56F96A3A2113DA5D00C1AE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F96A3B2113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F96A3C2113DA5D00C1AE8A /* Debug */,
+				56F96A3D2113DA5D00C1AE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F96A3E2113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F96A3F2113DA5D00C1AE8A /* Debug */,
+				56F96A402113DA5D00C1AE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F96A412113DA5D00C1AE8A /* Build configuration list for PBXNativeTarget "HajjParamedicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56F96A422113DA5D00C1AE8A /* Debug */,
+				56F96A432113DA5D00C1AE8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56F96A0B2113DA5B00C1AE8A /* Project object */;
+}
