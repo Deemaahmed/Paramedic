@@ -14,6 +14,9 @@
 		56F96A212113DA5D00C1AE8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56F96A1F2113DA5D00C1AE8A /* LaunchScreen.storyboard */; };
 		56F96A2C2113DA5D00C1AE8A /* HajjParamedicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A2B2113DA5D00C1AE8A /* HajjParamedicTests.swift */; };
 		56F96A372113DA5D00C1AE8A /* HajjParamedicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A362113DA5D00C1AE8A /* HajjParamedicUITests.swift */; };
+		56F96A452113E0C600C1AE8A /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A442113E0C600C1AE8A /* PatientViewController.swift */; };
+		56F96A472113FACE00C1AE8A /* FirstMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A462113FACE00C1AE8A /* FirstMapViewController.swift */; };
+		56F96A492113FD9C00C1AE8A /* SocendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F96A482113FD9C00C1AE8A /* SocendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		56F96A322113DA5D00C1AE8A /* HajjParamedicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HajjParamedicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56F96A362113DA5D00C1AE8A /* HajjParamedicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HajjParamedicUITests.swift; sourceTree = "<group>"; };
 		56F96A382113DA5D00C1AE8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56F96A442113E0C600C1AE8A /* PatientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		56F96A462113FACE00C1AE8A /* FirstMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMapViewController.swift; sourceTree = "<group>"; };
+		56F96A482113FD9C00C1AE8A /* SocendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				56F96A162113DA5B00C1AE8A /* AppDelegate.swift */,
 				56F96A182113DA5B00C1AE8A /* ViewController.swift */,
 				56F96A1A2113DA5B00C1AE8A /* Main.storyboard */,
+				56F96A482113FD9C00C1AE8A /* SocendViewController.swift */,
+				56F96A462113FACE00C1AE8A /* FirstMapViewController.swift */,
+				56F96A442113E0C600C1AE8A /* PatientViewController.swift */,
 				56F96A1D2113DA5D00C1AE8A /* Assets.xcassets */,
 				56F96A1F2113DA5D00C1AE8A /* LaunchScreen.storyboard */,
 				56F96A222113DA5D00C1AE8A /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56F96A472113FACE00C1AE8A /* FirstMapViewController.swift in Sources */,
+				56F96A492113FD9C00C1AE8A /* SocendViewController.swift in Sources */,
 				56F96A192113DA5B00C1AE8A /* ViewController.swift in Sources */,
 				56F96A172113DA5B00C1AE8A /* AppDelegate.swift in Sources */,
+				56F96A452113E0C600C1AE8A /* PatientViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -458,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sara.HajjParamedic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
